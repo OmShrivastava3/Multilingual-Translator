@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 50px;
+}
+
+/* Style for the select dropdown */
+#languageSelect {
+    padding: 8px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+p {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#englishText {
+    font-size: 25px;
+    min-height: 100px; /* Ensures space for speech recognition text */
+}
+
+#translatedText {
+    font-style: italic;
+    font-size: 30px;
+    color: #666;
+    height:200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+h2{
+    font-size:30px;
+}
